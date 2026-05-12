@@ -2275,18 +2275,15 @@ function all(){
    ═══════════════════════════════════════════════════════════════ */
 
 // ── CONFIGURACIÓN ────────────────────────────────────────────────
-const SYNC_CFG = {
-
-  // Firebase (opción A — tiempo real < 1s)
-  firebase: {
-    apiKey:            'TU_API_KEY',
-    authDomain:        'tu-proyecto.firebaseapp.com',
-    databaseURL:       'https://tu-proyecto-default-rtdb.firebaseio.com',
-    projectId:         'tu-proyecto',
-    storageBucket:     'tu-proyecto.appspot.com',
-    messagingSenderId: 'TU_SENDER_ID',
-    appId:             'TU_APP_ID'
-  },
+const  firebaseConfig = {
+  apiKey: "AIzaSyA49NrhkVKCEg2AsG-xS2QqZEinRu4UTCw",
+  authDomain: "victoria-padel-29547.firebaseapp.com",
+  databaseURL: "https://victoria-padel-29547-default-rtdb.firebaseio.com",
+  projectId: "victoria-padel-29547",
+  storageBucket: "victoria-padel-29547.firebasestorage.app",
+  messagingSenderId: "18883682845",
+  appId: "1:18883682845:web:74e126286490787acddcf4"
+};
 
   // JSONBin (opción B — polling 15s)
   jsonbin: {
